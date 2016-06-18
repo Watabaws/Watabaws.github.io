@@ -8,7 +8,7 @@ $subject = 'Message from a site visitor ' . $field_name;
 
 $body_message = 'From: '.$field_name."\n";
 $body_message .= 'E-mail: '.$field_email."\n";
-$body_message .= 'Number: '.#field_number."\n";
+$body_message .= 'Number: '.$field_number."\n";
 $body_message .= 'Message: '.$field_message;
 
 $headers = "From: $cf_email\r\n";
