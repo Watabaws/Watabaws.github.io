@@ -151,7 +151,7 @@ background:#2468ff;
 padding:3.7em 2em;
 }
 .birbble{
-background:#ffee38;
+background:#000000;
 padding:3.7em 2em;
 }
 i.bh{
@@ -185,7 +185,7 @@ background:#b6c9f4;
 	-ms-transition:0.5s all;
 }
 .birbble.social-grids:hover{
-background:#faf191;
+background:#6a6b6d;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -270,13 +270,13 @@ i.icon1{
 width:56px;
 height:60px;
 display:inline-block;
-background: url('../images/about.png') no-repeat 5px 4px #DF3F3F;
+background: url('../images/about.png') no-repeat 5px 4px #f9f9f9;
 }
 i.icon2{
 width:56px;
 height:60px;
 display:inline-block;
-background: url('../images/about.png') no-repeat -57px 4px #DF3F3F;
+background: url('../images/about.png') no-repeat -57px 4px #000000;
 }
 .about-phones{
 text-align:center;
@@ -1154,13 +1154,13 @@ font-size: 0.85em;
 i.icon1 {
 width: 43px;
 height: 41px;
-background: url('../images/about.png') no-repeat 6px 3px #DF3F3F;
+background: url('../images/about.png') no-repeat 6px 3px #f9f9f9;
 background-size: 189%;
 }
 i.icon2 {
 width: 43px;
 height: 41px;
-background: url('../images/about.png') no-repeat -36px 4px #DF3F3F;
+background: url('../images/about.png') no-repeat -36px 4px #000000;
 background-size: 189%;
 }
 .about-icon-info h4 {
