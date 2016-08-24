@@ -1,411 +1,64 @@
-
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-    img.ficon{
-        width:56px;
-        height:60px;
-        display:inline-block;
-        background: url('images/yh.png') no-repeat 5px 4px #f9f9f9;
-    }
-</style>
-<title>Adam Abbas</title>
-<link rel="shortcut icon" href="images/favicon.ico.png" />
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
-<link href='http://fonts.googleapis.com/css?family=Raleway:400,200,500,700,600,800,300,100' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300' rel='stylesheet' type='text/css'>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="keywords" content="Option Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<script src="js/jquery.min.js"> </script>
-<!---- start-smoth-scrolling---->
-		<script type="text/javascript" src="js/move-top.js"></script>
-		<script type="text/javascript" src="js/easing.js"></script>
-		<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
-				});
-			});
-		</script>
- 	<!---- start-smoth-scrolling---->
+    <head>
+        
+        <link rel="stylesheet" href="css/pills.min.css">
+        <link rel="stylesheet" href="css/css-main.css">
+        <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Cambay|Coda|Poiret+One" rel="stylesheet">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+    <body>  
+        <div class="row">
+            <ul class="navbar">
+                <li class="bar"> <a class="nb" href="index.html">HOME</a></li>
+                <li class="bar"> <a class="nb" href="AboutMe.html">ABOUT ME</a></li>
+                <li class="bar"> <a class="nb" href="">PROJECTS</a></li>
 
-</head>
-<body>
-<!--body-->
-<ul class="side_nav">
-<li><a class="scroll" href="#home"></a></li>
-<li><a class="scroll" href="#about"></a></li>
-<li><a class="scroll" href="#skills"></a></li>
-<li><a class="scroll" href="#gallery"></a></li>
-<li><a class="scroll" href="#contact"></a></li>
-</ul>
-<div id="home" class="banner">
-	 <div class="container">
-		 <div class="top-header">		  
-				 <div class="top-menu">
-					 <span class="menu"></span> 
-					 <nav class="cl-effect-1">
-				      <ul>
-                         <li style="float:left;margin-top:-5%"><a href="index.html"><img width=25% src="images/logo.png" alt="" /></a></li>
-						 <li><a class="scroll" href="#about">About</a></li>
-						 <li><a class="scroll" href="#skills">Skills</a></li>
-						 <li><a class="scroll" href="#gallery">Gallery</a></li>
-						 <li><a class="scroll" href="#contact">Contact</a></li>						 
-					 </ul>	
-					 </nav>					 
-				 </div>	
-				  <div class="clearfix"> </div>
-					 	 
-		 </div>	
-		  <div class="clearfix"> </div>
-		 <!-- script-for-menu -->
-		 <script>
-				$("span.menu").click(function(){
-					$(".top-menu ul").slideToggle("slow" , function(){
-					});
-				});
-		 </script>
-		 <!-- script-for-menu -->	  	 
-		  <div class="banner-info">	
-				<h1>Hi, I'm Adam Abbas</h1>
-				<h3>I'm 16 years old, a junior at Stuyvesant High School and an aspiring engineer. Read some more about me and what I've done. </h3>
-				<div class="scroll-down">
-				 <h4>SCROLL DOWN</h4>
-				<a class="downarrow scroll" href="#skills"><span></span></a>
-				</div>
-		  </div>
-	  </div>
-</div>
-<div class="social-media">
-	 <a href="https://www.instagram.com/adam_abbaws/" target="_blank"  ><div class="behance social-grids">
-		 <i class="bh"></i>
-	 </div></a>
-	 <a href="https://www.facebook.com/adamabbaws" target="_blank"><div class="facebook social-grids">
-		 <i class="fb"></i>
-	 </div></a>
-	 <a href="mailto:adamabbas26@gmail.com" target="_blank"><div class="pinterest social-grids">
-		 <i class="pin"></i>
-	 </div></a>
-	 <a href="http://www.github.com/Watabaws" target="_blank"><div class="birbble social-grids">
-		 <i class="brib"></i>
-	 </div></a>
-	 <div class="clearfix"></div>
-</div>
-<!---->
-<div id="about" class="about">
-	 <div class="container">
-		 <div class="about-head">
-			 <h3>About Me</h3>
-			 <p>I am one of those people who just can't help getting a kick out of life - even when it's a kick in the teeth.</p>
-			 <h5>Polly Adler </h5>
-		 </div> 
-         <br><br>
-			 <div class="col-md-6 about-info">
-				 <p class="about-sec-info">I was born and raised in Brooklyn, where I live today. It wasn't till the seventh grade that I was introduced to Computer Science, when my school introduced a new intiative to get middle schoolers into engineering. It started out with basic Python and Web Development, at which point I took it upon myself to learn more- and also introduce myself to Javascript. The following year, I was exposed to robotics, Scratch programming and circuitry- all of which I would grow to love and learn more about. My freshman year, I joined the robotics team- where I helped get us to the East Regional for the first time in our team's history. Sophomore year, I joined the Young Hackers; a group that aims to bring hackathons and programming to underprivelaged minorities. In addition, I co-founded Kinet-X- a STEM education company that aims to prepare the next generation to solve the problems ahead of them. For this project, I was selected as CE Week's Top 10 Under 20 Innovator' to look out for. <br><br> Here are some of my projects/acheivements.</p>
-                
-				 <div class="about-grid">
-					 <div class="about-icon">
-						 <i class="icon1"></i>
-					 </div>
-					 <div class="about-icon-info">
-						 <h4>Kinet-X</h4>
-						 <p>Started by me and two other sophomores, Kinet-X was born when we came to the realization that STEM was simply too hard to get into. School's around the country aren't certified to teach CS, and programs around the city are overpriced and lack the teaching methods to be effective. We set out to change that. Learn more at <a href="http://kinet-x.org" style="color:#ff9c00">kinet-x.org</a></p>
-					 </div>
-					 <div class="clearfix"></div>
-				 </div>
-				 <div class="about-grid">
-					 <div class="about-icon">
-						 <i class="icon2"></i>
-					 </div>
-					 <div class="about-icon-info">
-						 <h4>Team 479 Stuy Fusion</h4>
-						 <p>One of Stuyvesant's FTC robotics teams, I'm proud to be the team's Head of Engineering. My responsibilities include designing the robot at the beginning of the year, when we find the game out, teaching new members the basics of engineering and helping build the robot during the season. Along with building and programming robots, the team also does a lot of community outreach, to spread STEM. Learn more at our website <a href="http://stuyfusion.github.io" style="color:#ff9c00">stuyfusion.github.io</a></p>
-					 </div>
-                    <div class="clearfix"></div>
+            </ul>
+        </div>
+        <div class="row" style="background:#f0f0f0;border-radius:15px;">    
+            <br>
+            <div class="row">
+                <div class="column half offset by-one-quarter">
+                    <img class="me" src="images/me.jpg">    
                 </div>
-                <div class="about-grid">
-                    <div class="about-icon">
-                        <img class="ficon">
-                    </div>
-                    <div class="about-icon-info">
-						 <h4>Young Hackers</h4>
-						 <p>The Young Hackers are a group of high school students across New York City that aim to bring STEM to minorities and those that might not have access to it. I joined in April of 2016, after attending their super amazing event Hip Hop Hacks, and have been a dedicated member ever since. I currently serve as their Head of Outreach as well as Website Manager. Find out more about the Young Hackers at <a href="http://younghackers.us" style="color:#ff9c00">younghackers.us</a></p>
-					 </div>
-                    <div class="clearfix"></div>
-                </div>
-			 </div>
-			 <div class="col-md-6 about-phones">
-				 <img width=60% src="images/me.jpg" style="border-radius:15%" alt=""/>
-                 <img width=60% src="images/two.jpg" style="border-radius:15%;margin-top:25%;" alt=""/>
-                 <img width=60% src="images/yhsqua.JPG" style="border-radius:15%;margin-top:25%;" alt=""/>
-			 </div>
-			 <div class="clearfix"></div>
-		 </div>
-	 </div>
-<!---->
-<div id="skills" class="skills">
-	 <div class="container">
-		 <div class="skills-head">
-			 <h3>SKILLS</h3>
-			 <p>I am prepared for the worst, but hope for the best.</p>
-			 <h5>Benjamin Disraeli</h5>
-		 </div> 
-		 <div class="skill-grids">
-			 <div class="col-md-4 skill-grid">
-				 <img src="images/research.png" alt=""/>
-				 <h3><a href="#">LEADERSHIP</a></h3>
-				 <p>Having held, and currently holding, many leadership positions I have the experience along with the personality to be an effective leader in any situation.</p>
-			 </div>
-			 <div class="col-md-4 skill-grid">
-				 <img src="images/design.png" alt=""/>
-				 <h3><a href="#">ENGINEERING</a></h3>
-				 <p>Engineering is the field that I enjoy most, as it allows me to push my mind the furthest. I have experience in electrical engineering and circuitry, as well as mechanical engineering- building mechanisms and robots. </p>
-			 </div>
-			 <div class="col-md-4 skill-grid">
-				 <img src="images/code.png" alt=""/>
-				 <h3><a href="#">CODE</a></h3>
-				 <p>I have experiences in many programming languages- including Python, C, HTML and CSS- and can pick new ones up very quickly.  </p>
-			 </div>
-			 <div class="clearfix"></div>
-		 </div>
-		 <div class="pencils">
-			 <img src="images/pencils.png" alt=""/>
-		 </div>
-	 </div>
-</div>
-<!---->
-<!------ Light Box ------>
-    <link rel="stylesheet" href="css/swipebox.css">
-    <script src="js/jquery.swipebox.min.js"></script> 
-    <script type="text/javascript">
-		jQuery(function($) {
-			$(".swipebox").swipebox();
-		});
-	</script>
-    <!------ Eng Light Box ------>	
-<div id="gallery" class="gallery">
-	 <div class="container">
-		 <div class="gallery-head">
-			 <h3>GALLERY</h3>
-			 <p>The best part of beauty is that which no picture can express.</p>
-			 <h5 style="margin-bottom:5%;">Francis Bacon</h5>
-		 </div>
-    </div>
-					<div id="portfoliolist">
-                	<div class="portfolio app mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="app" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper grid_box">		
-							 <a> <img src="images/Gallery/tumblrroof.jpg" class="img-responsive" alt="">
-							 <div class="caption">
-							 <div class="caption-info">
-								 <h4>Tumblr Hackventure</h4>								
-								 <p>Rooftop</p>
-								 <p>Young Hackers</p>
-								 </div>
-								 </div></a>
-		                </div>
-					</div>	
-					<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper grid_box">		
-							 <a > <img src="images/Gallery/hhh.jpg" class="img-responsive" alt="">
-							 <div class="caption">
-							 <div class="caption-info">
-								 <h4>Hip Hop Hacks</h4>								
-								 <p>Group Picture</p>
-								 <p>Young Hackers</p>
-								 </div>
-								 </div></a>
-		                </div>
-					</div>								
-					<div class="portfolio icon mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="icon" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper grid_box">		
-							 <a> <img src="images/Gallery/emoticon.jpg" class="img-responsive" alt="">
-							 <div class="caption">
-							 <div class="caption-info">
-								 <h4>Emoti-con 2016</h4>								
-								 <p>Project Fair</p>
-								 <p>Kinet-X</p>
-								 </div>
-								 </div></a>
-		                </div>
-
-					</div>
-					
-					<div class="portfolio app mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="app" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper grid_box">		
-							 <a> <img src="images/Gallery/franny15.jpg" class="img-responsive" alt="">
-							 <div class="caption">
-							 <div class="caption-info">
-								 <h4>Robotics Qualifier 2015</h4>								
-								 <p>Francis Lewis</p>
-								 <p>FTC</p>
-								 </div>
-								 </div></a>
-		                </div>
-					</div>			
-					<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper grid_box">		
-							 <a> <img src="images/Gallery/mc.jpg" class="img-responsive" alt="">
-							 <div class="caption">
-							 <div class="caption-info">
-								 <h4>Emceeing a Robotics Event</h4>								
-								 <p>2016 Regional</p>
-								 <p>FTC</p>
-								 </div>
-								 </div></a>
-		                </div>
-					</div>	
-					<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper grid_box">		
-							 <a> <img src="images/Gallery/withChina.jpg" class="img-responsive" alt="">
-							 <div class="caption">
-							 <div class="caption-info">
-								 <h4>Robotics Group Picture</h4>								
-								 <p>China Team Visit</p>
-								 <p>FTC</p>
-								 </div>
-								 </div></a>
-		                </div>
-					</div>	
-					<div class="portfolio icon mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="icon" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper grid_box">		
-							 <a> <img src="images/Gallery/tumblrroom.jpg" class="img-responsive" alt="">
-								<div class="caption">
-							 <div class="caption-info">
-								 <h4>Tumblr API Workshop</h4>								
-								 <p>Tumblr HQ</p>
-								 <p>Young Hackers</p>
-								 </div>
-								 </div></a>
-		                </div>
-						</div>
-						<div class="portfolio logos mix_all wow bounceIn" data-wow-delay="0.4s" data-cat="logos" style="display: inline-block; opacity: 1;">
-						<div class="portfolio-wrapper grid_box">		
-							 <a href="images/Gallery/FRC.png" class="swipebox"  title="Image Title"> <img src="images/Gallery/FRC.png" class="img-responsive" alt="">
-							<div class="caption">
-							 <div class="caption-info">
-								 <h4>New York Robotics Regional</h4>								
-								 <p>Cheering in the stands</p>
-								 <p>FRC</p>
-								 </div>
-								 </div></a>
-		                </div>
-					</div>
-					
-<div class="clearfix"></div>					
-				</div>
-				
-	  <!-- Script for gallery Here -->
-				<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-					<script type="text/javascript">
-					$(function () {
-						
-						var filterList = {
-						
-							init: function () {
-							
-								// MixItUp plugin
-								// http://mixitup.io
-								$('#portfoliolist').mixitup({
-									targetSelector: '.portfolio',
-									filterSelector: '.filter',
-									effects: ['fade'],
-									easing: 'snap',
-									// call the hover effect
-									onMixEnd: filterList.hoverEffect()
-								});				
-							
-							},
-							
-							hoverEffect: function () {
-							
-								// Simple parallax effect
-								$('#portfoliolist .portfolio').hover(
-									function () {
-										$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
-										$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
-									},
-									function () {
-										$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
-										$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
-									}		
-								);				
-							
-							}
-				
-						};
-						
-						// Run the show!
-						filterList.init();
-						
-						
-					});	
-					</script>
-
-</div>
-<!---->
-<div id="contact" class="contact">
-	 <div class="container">
-		 <div class="contact-head">
-			 <h3>CONTACT</h3>
-			 <p>To design is to communicate clearly by whatever means you can control or master.</p>
-			 <h5>Milton Glaser</h5>
-			 </div>
-			<!-- <div class="contact-sec" style="float:left;display:inline-block;">
-                 <div class="col-md-4 contact-address">
-					 <div class="contect-form-left">
-						 <h3>CONTACT</h3>
-			             <p>To design is to communicate clearly by whatever means you can control or master.</p>
-			             <h5>Milton Glaser</h5>
-					 </div>
-					 <div class="clearfix"></div>
-				 </div>
-				 <div class="clearfix"></div>
-			 </div>-->
-				 <div class="col-md-8 contact-address">
-					 <ul>
-					 <li><span class="navi"></span></li>
-					 <li>Brooklyn, New York</li>	
-					 </ul>
-					 <ul>
-					 <li><span class="mail"></span></li>
-					 <li><a href="mailto:adamabbas362@gmail.com">adamabbas362@gmail.com</a></li>
-					 </ul>
-					 <ul>
-					 <li><span class="mbil"></span></li>
-					 <li class="number">917.543.2627</li>
-					 </ul>
-					 <div class="clearfix"></div>
-					 </ul>				 
-				 </div>
-		 </div>
-</div>
-<!---fotter-->
-<div class="fotter">
-	 <div class="container">
-		 <div class="fotter-logo">
-			 <a href="index.html"><img width=25%  src="images/logo.png" alt=""/></a>
-		 </div>
-		 <p class="fotter-info">Copyrights &copy; 2016 Option All rights reserved | Template by <a href="http://w3layouts.com/">W3layouts</a></p>
-		 <div class="social-icons" style="margin-top:2%;margin-right:15%">
-			<a href="https://www.instagram.com/adam_abbaws/" target="_blank"><span class="beh"></span></a>
-			<a href="https://www.facebook.com/adamabbaws" target="_blank"><span class="face"></span></a>
-			<a href="mailto:adamabbas362@gmail.com" target="_blank"><span class="pin"></span></a>
-			<a href="http://www.github.com/Watabaws" target="_blank"><span class="br"></span></a>				 
-		 </div>
-		 <div class="clearfix"></div>
-	 </div>
-</div>
-<!---->
-</body>
+            </div>
+            <div class="row">
+                <div class="column whole"> <div class="name">Hi I'm Adam! <br>  Welcome to my site</div></div>
+            </div> 
+        <br> 
+        <div class="row"> <hr width=70% size=5px noshade=noshade color=#A9A9A9> </div>
+        <br><br>
+        <div class="row" style="overflow:hidden;">
+            <div class="column one-third" style="padding-bottom:1000px; margin-bottom:-1000px;">
+                <div class="ttl" style="background:#BEB2C8;">Who am I?</div>
+            </div>
+            <div class="column two-thirds" style="padding-bottom:1000px; margin-bottom:-1000px;">
+                <div class="decr" style="background:#D7D6D6;">I'm an aspiring engineer, programmar and innovator. I'm the Co-Founder of Kinet-X, a tech education startup aiming to provide the future generation with the tools they need to change the world. I'm a proud member of my robotics team, an active participant in my student government and a member of the Young Hackers. If you're interested in learning more about me, feel free to look at my <a class="lnk" href="AboutMe.html">About Me</a> section!</div>
+            </div>
+        </div>
+            <br>
+        <div class="row" style="overflow:hidden";>
+            <div class="column one-third" style="padding-bottom:1000px; margin-bottom:-1000px;">
+                <div class="ttl" style="background:#D7D6D6;">What do I do?</div>
+            </div>
+            <div class="column two-thirds" style="padding-bottom:1000px; margin-bottom:-1000px;">
+                <div class="decr" style="background:#BEB2C8">I have years of experience programming, being fluent in HTML, CSS, Python, Propeller-C and Arduino- with a basic understanding of Javascript. I've built websites (including this one!), programmed robots and sensors, and built games and applications. In addition, I have experience with soldering and circuitry- being able to buid things from solar powered cars to light up shoes. Check out my <a class="lnk" href="projects.html">Projects</a>!  </div>
+            </div>
+        </div> 
+        <br><br>
+        </div>
+        <div class="row">
+            <div class="column whole footer" style="text-align:center;">
+                <a href="https://www.facebook.com/adamabbaws" class="sclmda"><i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i></a>
+                <a href="mailto:adamabbas362@gmail.com" class="sclmda"><i class="fa fa-envelope fa-4x" aria-hidden="true"></i></a>
+                <a href="www.linkedin.com/in/adam-abbas" class="sclmda"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
+                <a href="https://github.com/watabaws" class="sclmda"><i class="fa fa-github-square fa-4x" aria-hidden="true"></i></a>
+                <!-- <hr width="30%">
+                <span class="ft"><a href="mailto:adamabbas362@gmail.com" class="ft">adamabbas362@gmail.com </a> | 9175432627 | <a href="mailto:adam@kinet-x.org" class="ft">adam@kinet-x.org</a></span>
+                <hr width="30%">-->
+            </div>
+        </div>
+    </body>
 </html>
