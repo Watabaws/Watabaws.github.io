@@ -166,3 +166,71 @@ body {
                 width:100%; 
 
             }
+ .thingy {
+                border-radius: 40px;
+                height: 70%;
+                width: 70%;
+                margin-left: 10%;
+            }
+            .alignvert {
+                top:50%;
+                position: relative;
+                transform: translateY(50%);
+            }
+            .titl {
+                font-family: 'Righteous';
+                text-align: center;
+                margin-bottom: 3%;
+                font-size: 175%;
+            }
+            .bigo{
+                font-family: "Josefin Sans";
+                text-align: center;
+                font-size: 500%;
+                margin-bottom: 8%;
+            }
+            .tst{
+                text-align:left;
+                font-family: 'Montserrat';
+                font-size: 120%;
+                font-weight: -500;
+                line-height: 1.5em;
+                font-size: 110%;
+            }
+            ul.acmpl{
+                list-style-type: circle;
+            }
+            .tyetl {
+                color: #5D5E60;
+                font-size: 370%;
+                padding: 10px;
+                letter-spacing: 10px;
+                font-family: 'Josefin Sans', sans-serif;
+                text-align: center;
+                margin-top: 10%;
+            }
+            .bgsk {
+                background-color: #5D5E60;
+                border-radius: 50px;
+                width: 110%;
+                
+            }
+            .sklt {
+                color: white;
+                text-align: center;
+                font-family: Montserrat;
+                padding:10px;
+                font-size: 140%;
+            }
+            .skld{
+                color:white;
+                font-family: Coda;
+                padding:15px;
+                margin-left: 6%;
+                
+                
+            }
+            .skl {
+                margin-right: 4%;
+                margin-left: 4%;
+            }
