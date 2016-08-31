@@ -187,7 +187,7 @@ a.sclmda:hover{
     font-family: "Josefin Sans";
     text-align: center;
     font-size: 500%;
-    margin-bottom: 8%;
+    margin-bottom: 2%;
 }
 .tst{
     text-align:left;
@@ -213,6 +213,7 @@ ul.acmpl{
     background-color: #5D5E60;
     border-radius: 50px;
     width: 110%;
+    height: 350px;
 
 }
 .sklt {
