@@ -4,18 +4,9 @@ print ""
 
 from yelp.client import Client
 from yelp.oauth1_authenticator import Oauth1Authenticator
-import json
-import cgi
 
+term = input("What is your search term")
 
-def getQuery():
-    d = {}
-    formData = cgi.FieldStorage()
-    for k in formData.keys():
-        d[k] = formData[k].value
-    return d
-
-queryStuff = getQuery()
 
 
 auth = Oauth1Authenticator(
@@ -38,5 +29,3 @@ def readBuisnesses():
         print i.url
         print ""
 readBuisnesses()
-
-
