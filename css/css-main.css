@@ -168,7 +168,7 @@ a.sclmda:hover{
 }
 .thingy {
     border-radius: 40px;
-    height: 70%;
+    height: auto;
     width: 70%;
     margin-left: 10%;
 }
@@ -183,10 +183,11 @@ a.sclmda:hover{
     @include vertical-align()
 }
 .titl {
-    font-family: 'Righteous';
+    font-family: 'Poiret One', cursive;
     text-align: center;
     margin-bottom: 3%;
-    font-size: 175%;
+    font-size: 250%;
+    font-weight: bold;
 }
 .bigo{
     font-family: "Josefin Sans";
@@ -212,7 +213,7 @@ ul.acmpl{
     letter-spacing: 10px;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 3%;
 }
 .bgsk {
     background-color: #5D5E60;

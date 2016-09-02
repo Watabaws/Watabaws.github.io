@@ -3,10 +3,34 @@
     <head>
         <link rel="stylesheet" href="css/pills.min.css">
         <link rel="stylesheet" href="css/css-main.css">
-        <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Cambay|Coda|Josefin+Sans:600|Quicksand:700|Montserrat|Roboto|Droid+Sans|Righteous" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Cambay|Coda|Josefin+Sans:600|Quicksand:700|Montserrat|Roboto|Droid+Sans|Righteous|Poiret+One" rel="stylesheet">
         <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>Adam Abbas: About Me</title>
+        <style>
+            .medesc{
+                font-weight:575;
+                font-size:120%;
+                font-family:'Montserrat';
+            }
+            a.titleh{
+                cursor: pointer;
+            }
+            .schooldesc{}
+        </style>
+        <script type="text/javascript">
+        function toggleMe(a){
+            var e=document.getElementById(a);
+            if(!e)return true;
+            if(e.style.display=="none"){
+            e.style.display="block"
+            }
+            else{
+            e.style.display="none"
+            }
+            return true;
+        }
+        </script>
     </head>
     <body>  
         <div class="row">
@@ -28,27 +52,28 @@
             <div class="column two-thirds alignvert">
                 <div class='decr' style="background:#D7D6D6;border-radius:25px;margin-right:4%;"> 
                     <span style="font-size: 280%;font-family: 'Roboto'">My Story</span><hr width="15%">
-                    <span style="font-weight:575;font-size:120%;font-family:"Montserrat"">Hi! My name is Adam Abbas, I'm 16 and a junior at Stuyvesant High School. I was born and raised in Brooklyn, NY and live with my parents and brothers. I've always been attracted to the maker culture, being fascinated with anything that moved. I was introduced to programming in 7th grade, and haven't stopped learning since. I'm fluent in Propeller-C, Python, HTML and CSS; with a basic understanding of Javascript, Java and Ruby. In 9th grade I joined my school's robotics teams, and found out how great the world of mechanical engineering was. Since then I've built countless circuits, tons of robots and experimented with electronics at home. When I'm free, and not at some STEM event, I enjoy reading fantasy books, going to the gym, and baking! My biggest goal in life is to make a difference, to change the lives of more than just those around me, which I hope I'm well on my way to doing. Hope you enjoy learning about me!</span>
+                    <span class="medesc">Hi! My name is Adam Abbas, I'm 16 and a junior at Stuyvesant High School. I was born and raised in Brooklyn, NY and live with my parents and brothers. I've always been attracted to the maker culture, being fascinated with anything that moved. I was introduced to programming in 7th grade, and haven't stopped learning since. I'm fluent in Propeller-C, Python, HTML and CSS; with a basic understanding of Javascript, Java and Ruby. In 9th grade I joined my school's robotics teams, and found out how great the world of mechanical engineering was. Since then I've built countless circuits, tons of robots and experimented with electronics at home. When I'm free, and not at some STEM event, I enjoy reading fantasy books, going to the gym, and baking! My biggest goal in life is to make a difference, to change the lives of more than just those around me, which I hope I'm well on my way to doing. Hope you enjoy learning about me!</span>
                 </div>
             </div>
             <div class="row" style="margin-top:10%">
-                <hr class="niceu" width="65%">
+                <br><br>
+                <hr class="niceu" width="90%">
                 <br>
                 <div class="column two-quarters">
                     <div class="tyetl">
-                        Education
+                        Education<br>
                     </div>
-    
-                    <hr width="40%;size=5px noshade=noshade color=#A9A9A9;"><br>
                 </div>
             </div>
             <div class="row" style="margin-bottom: 3%;">
-                <div class="column half" >
+                <div class="column two-thirds" >
                     <div class="titl">
                         High School: Stuyvesant
                     </div>
-                    <hr width="30%">
-                    <div class="tst" style="margin-left:2%;">
+                    <hr width="30%"><br>
+                    <!--<input type="button" onclick="return toggleMe('chaunctuff')" value="Read About Chauncey!" ><br>
+                                                <p class="bio" id="chaunctuff">Here is stuff</p>-->
+                    <div class="tst" style="margin-left:2%;" >
                         I attended high school at <a href="stuy.edu" class="lnk">Stuyvesant High School</a>. Here was where my love and knowledge of STEM really grew, where I began to work with circuitry and expand my knowledge of code. At Stuy I:
                         <ul class="acmpl">
                             <li> Was a member of one of our robotics teams: helping us win #1 in New York my first year and serving as Vice President one year, and Head of Engineering the next</li>
@@ -59,15 +84,15 @@
                         </ul>
                     </div>
                 </div>
-                <div class="column half">
-                    <img src="images/stuy.png" style="width:350px;margin-left:25%;">
+                <div class="column one-third">
+                    <img src="images/stuy.png" style="width:350px;margin-left:15%;margin-top:10%;" class="alignvert">
                 </div>
             </div>
             <div class="row">
-                <div class="column half">
-                    <img src="images/mt.png" style="margin-left:25%;">
+                <div class="column one-third">
+                    <img src="images/mt.png" style="margin-left:25%;margin-top:10%;">
                 </div>
-                <div class="column half">
+                <div class="column two-thirds">
                     <div class="titl">
                         Middle School: Mark Twain
                     </div>
