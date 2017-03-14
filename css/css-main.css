@@ -5,6 +5,7 @@ ul.navbar {
     list-style-type: none;
     height: auto;
     margin: 0;
+    margin-top: 2%;
     padding: 0;
     overflow: hidden;
     background-color: #3C343F;
@@ -16,6 +17,7 @@ ul.navbar {
     background-color: #3C343F;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
+    margin-bottom: 2%;
 }
 .ftt{
     color: #BEB2C8; 
