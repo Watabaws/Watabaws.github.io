@@ -8,12 +8,14 @@ ul.navbar {
     padding: 0;
     overflow: hidden;
     background-color: #3C343F;
-    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     font-family: "Alegreya Sans", sans-serif;
 }
 .footer{
     background-color: #3C343F;
-    border-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 .ftt{
     color: #BEB2C8; 
@@ -39,10 +41,10 @@ ul.top {
 }
 li.bar {
     float: left;
-    margin-right: 10px; 
-    padding: 10px;
+    margin-right: 1%; 
+    padding: .5%;
     font-size: 200%;
-    font-family: monospace
+    font-family: monospace;
 }
 li.desc {
     list-style-type: none;
@@ -57,7 +59,7 @@ li a.nb {
 }
 a.nb:hover {
     background-color: #111;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .me {
     border-radius: 500px;
