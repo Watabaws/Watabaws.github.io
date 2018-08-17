@@ -111,13 +111,14 @@ a.nb:hover {
 }
 .decr {
     font-family: 'Coda';
-    float:center;
-    text-align: center;
+    text-align: justify;
     position: relative;
-    border-radius:250px;
-    font-size: 1em;
-    padding: 5%
+    font-size: .9em;
+    padding: 2.5%;
+    background:#D7D6D6;
+    margin: 2%;
 
+    
 }
 a {
     color: brown;
@@ -165,7 +166,6 @@ a.sclmda:hover{
     letter-spacing: 10px;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
-    position:relative;
     float:center;
     width:100%; 
 
@@ -215,18 +215,18 @@ ul.acmpl{
 }
 .tyetl {
     color: #5D5E60;
-    font-size: 370%;
+    font-size: 80px;
     padding: 10px;
     letter-spacing: 10px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Baloo Bhai', cursive;
     text-align: center;
-    margin-top: 3%;
 }
 .bgsk {
     background-color: #5D5E60;
     border-radius: 50px;
     width: 110%;
-    height: 450px;
+    height: auto;
+    min-height: 420px;
 
 }
 .sklt {
@@ -235,14 +235,14 @@ ul.acmpl{
     font-family: Montserrat;
     padding:10px;
     font-size: 140%;
+
 }
 .skld{
     color:white;
     font-family: Coda;
-    padding:15px;
-    margin-left: 6%;
-
-
+    font-size: 90%;
+    padding:10%;
+    text-align: left;
 }
 .skl {
     margin-right: 4%;
@@ -250,7 +250,7 @@ ul.acmpl{
 }
 hr.niceu {
     border: 0;
-    height: 1px;
+    height: 2px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
  .desbox{
@@ -287,4 +287,8 @@ hr.niceu {
     color: #5D5E60;
     text-align: justify;
 
+}
+
+.shoolpic{
+    margin-top: 25%;
 }
