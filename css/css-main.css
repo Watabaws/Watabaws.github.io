@@ -20,11 +20,11 @@ ul.navbar {
     margin-bottom: 2%;
 }
 .ftt{
-    color: #BEB2C8; 
+    color: #BEB2C8;
     padding: 5px;
     font-family: "Alegreya Sans", sans-serif;
     font-size: 28px;
-} 
+}
 .name {
     color: #5D5E60;
     font-size: 55px;
@@ -43,7 +43,7 @@ ul.top {
 }
 li.bar {
     float: left;
-    margin-right: 1%; 
+    margin-right: 1%;
     padding: .5%;
     font-size: 200%;
     font-family: monospace;
@@ -86,7 +86,7 @@ a.nb:hover {
 
     font-size: 20px;
     font-family: Helvetica;
-}   
+}
 .title {
     text-align: center;
     font-size: 4em;
@@ -95,7 +95,7 @@ a.nb:hover {
 }
 .list {
     color:white;
-    align-items: 
+    align-items:
 }
 .ttl {
     font-family: 'Cambay', sans-serif;
@@ -114,12 +114,20 @@ a.nb:hover {
     text-align: justify;
     position: relative;
     font-size: .9em;
-    padding: 2.5%;
     background:#D7D6D6;
+    padding: 2.5%;
     margin: 2%;
-
-    
 }
+
+.thingy {
+    border-radius: 40px;
+    height: auto;
+    width: 70%;
+    display:inline-block;
+    margin-left: 10%;
+    position: relative;
+}
+
 a {
     color: brown;
 }
@@ -167,18 +175,10 @@ a.sclmda:hover{
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     float:center;
-    width:100%; 
+    width:100%;
 
 }
-.thingy {
-    border-radius: 40px;
-    height: auto;
-    width: 70%;
-    margin-left: 10%;
-    position: relative;
-    height: 100%;
-    margin-top: 15%;
-}
+
 @mixin vertical-align($position: relative) {
   position: $position;
   top: 50%;
@@ -197,9 +197,9 @@ a.sclmda:hover{
     font-weight: bold;
 }
 .bigo{
-    font-family: "Josefin Sans";
+    font-family: 'Baloo Bhai', cursive;
     text-align: center;
-    font-size: 500%;
+    font-size: 400%;
     margin-bottom: 2%;
 }
 .tst{
