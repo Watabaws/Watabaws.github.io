@@ -204,20 +204,17 @@ a.sclmda:hover{
 .tst{
     text-align:left;
     font-family: 'Coda';
-    font-size: 120%;
-    font-weight: -500;
-    line-height: 1.5em;
-    font-size: 110%;
+    font-size: 1em;
 }
 ul.acmpl{
     list-style-type: circle;
 }
 .tyetl {
     color: #5D5E60;
-    font-size: 60px;
+    font-size: 40px;
     padding: 10px;
     letter-spacing: 5px;
-    font-family: 'Baloo Bhai', cursive;
+    font-family: 'Josefin Sans';
     text-align: left;
 }
 .bgsk {
@@ -286,8 +283,4 @@ hr.niceu {
     color: #5D5E60;
     text-align: justify;
 
-}
-
-.shoolpic{
-    margin-top: 25%;
 }
