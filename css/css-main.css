@@ -42,26 +42,27 @@ ul.top {
     text-align: center;
 }
 li.bar {
-    float: left;
-    margin-right: 1%;
-    padding: .5%;
+    float: center;
     font-size: 200%;
     font-family: monospace;
+    display:inline-block;
+    white-space: pre-line;
 }
 li.desc {
     list-style-type: none;
     float:center;
 }
 li a.nb {
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    overflow: hidden;
 }
 a.nb:hover {
     background-color: #111;
-    border-radius: 15px;
+    border-radius: 2%;
 }
 .me {
     border-radius: 500px;
