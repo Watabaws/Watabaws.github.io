@@ -198,7 +198,7 @@ a.sclmda:hover{
     font-weight: bold;
 }
 .bigo{
-    font-family: 'Baloo Bhai', cursive;
+    font-family: "Josefin Sans";
     text-align: center;
     font-size: 400%;
 }
@@ -218,15 +218,15 @@ ul.acmpl{
     font-family: 'Josefin Sans';
     text-align: left;
 }
-.bgsk {
+.infoblock {
     background-color: #5D5E60;
     border-radius: 50px;
     width: 110%;
     height: auto;
-    min-height: 420px;
-
+    vertical-align: bottom;
+    margin-bottom: 2%;
 }
-.sklt {
+.infotitle {
     color: white;
     text-align: center;
     font-family: Montserrat;
@@ -234,12 +234,12 @@ ul.acmpl{
     font-size: 140%;
 
 }
-.skld{
+.infodesc{
     color:white;
     font-family: Coda;
     font-size: 90%;
     padding:10%;
-    text-align: left;
+    text-align: justify;
 }
 .skl {
     margin-right: 4%;
