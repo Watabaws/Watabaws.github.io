@@ -13,6 +13,10 @@ ul.navbar {
     border-top-right-radius: 15px;
     font-family: "Alegreya Sans", sans-serif;
 }
+
+.mainbody{
+    background:#f0f0f0;
+}
 .footer{
     background-color: #3C343F;
     border-bottom-right-radius: 15px;
@@ -109,6 +113,16 @@ a.nb:hover {
     position:relative;
     transform: translateY(5%);
 
+}
+.termheader{
+    font-family: 'Cambay', sans-serif;
+    text-align:left;
+    font-size: 2em;
+}
+.courses{
+    font-family: 'Coda';
+    text-align:left;
+    margin:0;
 }
 .decr {
     font-family: 'Coda';
