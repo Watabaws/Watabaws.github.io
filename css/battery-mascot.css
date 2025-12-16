@@ -1,0 +1,105 @@
+/* Battery Mascot Floating Animation */
+.battery-mascot {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1000;
+    animation: float 3s ease-in-out infinite;
+    transition: transform 0.3s ease;
+}
+
+.battery-mascot:hover {
+    animation-play-state: paused;
+    transform: scale(1.05) rotate(-5deg);
+}
+
+.battery-mascot img {
+    width: 150px;
+    height: auto;
+    display: block;
+    filter: drop-shadow(0 10px 30px rgba(0,0,0,0.2));
+    cursor: pointer;
+    transition: filter 0.3s ease;
+}
+
+.battery-mascot:hover img {
+    filter: drop-shadow(0 15px 40px rgba(255, 107, 53, 0.3));
+}
+
+.speech-bubble {
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    background: white;
+    border: 2px solid #ff6b35;
+    border-radius: 20px;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1a1a1a;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    pointer-events: none;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.speech-bubble::after {
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    right: 30px;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #ff6b35;
+}
+
+.speech-bubble::before {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    right: 32px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid white;
+    z-index: 1;
+}
+
+.battery-mascot:hover .speech-bubble {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .battery-mascot {
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .battery-mascot img {
+        width: 100px;
+    }
+
+    .speech-bubble {
+        font-size: 12px;
+        padding: 10px 15px;
+        white-space: normal;
+        max-width: 150px;
+    }
+}
