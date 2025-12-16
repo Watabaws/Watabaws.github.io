@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial collapse animation
     setTimeout(() => {
         h1.classList.add('collapsed');
-        
+
         // Wait for the collapse animation to finish (0.6s) before showing the subtitle
         setTimeout(() => {
             subtitle.classList.add('visible');
@@ -15,16 +15,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // Hover to expand
     h1.addEventListener('mouseenter', () => {
         h1.classList.remove('collapsed');
-        subtitle.classList.remove('visible');
     });
 
     // Hover out to collapse
     h1.addEventListener('mouseleave', () => {
         h1.classList.add('collapsed');
-        
-        // Wait for the collapse animation to finish before showing the subtitle
-        setTimeout(() => {
-            subtitle.classList.add('visible');
-        }, 600);
     });
 });
