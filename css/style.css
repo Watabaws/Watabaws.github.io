@@ -112,8 +112,8 @@ h1.collapsed .battery-text {
 }
 
 .profile-img {
-    width: 200px;
-    height: 200px;
+    width: 240px;
+    height: 240px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #e5e5e5;
@@ -283,6 +283,11 @@ h1.collapsed .battery-text {
     color: #777;
     font-size: 14px;
     font-family: 'SF Mono', 'Monaco', 'Courier New', monospace;
+    text-decoration: none;
+}
+
+a .project-link:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
