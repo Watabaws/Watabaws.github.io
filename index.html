@@ -4,260 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adam Abbas</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            background: #e8e8e8;
-            color: #2a2a2a;
-            line-height: 1.6;
-            min-height: 100vh;
-            padding: 40px 20px;
-        }
-
-        .wrapper {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 80px 60px;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 8px 40px rgba(0,0,0,0.08);
-        }
-
-        header {
-            margin-bottom: 80px;
-        }
-
-        h1 {
-            font-size: 64px;
-            font-weight: 700;
-            color: #1a1a1a;
-            margin-bottom: 15px;
-            letter-spacing: -1.5px;
-        }
-
-        .subtitle {
-            font-size: 20px;
-            color: #666;
-            font-weight: 400;
-        }
-
-        .subtitle .highlight {
-            color: #1a1a1a;
-            font-weight: 600;
-        }
-
-        .intro {
-            font-size: 18px;
-            color: #555;
-            line-height: 1.8;
-            max-width: 650px;
-            margin: 40px 0 60px 0;
-        }
-
-        .nav-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
-            margin: 60px 0;
-        }
-
-        .nav-card {
-            background: white;
-            padding: 35px;
-            border-radius: 6px;
-            text-decoration: none;
-            color: #2a2a2a;
-            border: 1px solid #e5e5e5;
-            transition: all 0.25s ease;
-            display: block;
-        }
-
-        .nav-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 12px 35px rgba(0,0,0,0.08);
-            border-color: #ff6b35;
-        }
-
-        .nav-card h3 {
-            font-size: 22px;
-            margin-bottom: 12px;
-            color: #1a1a1a;
-            font-weight: 600;
-        }
-
-        .nav-card p {
-            color: #777;
-            font-size: 15px;
-            line-height: 1.6;
-        }
-
-        .arrow {
-            display: inline-block;
-            margin-left: 6px;
-            transition: transform 0.25s ease;
-            color: #ff6b35;
-        }
-
-        .nav-card:hover .arrow {
-            transform: translateX(5px);
-        }
-
-        .terminal-box {
-            background: #1e1e1e;
-            border-radius: 8px;
-            overflow: hidden;
-            margin: 80px 0;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.12);
-        }
-
-        .terminal-top {
-            background: #323232;
-            padding: 12px 16px;
-            display: flex;
-            gap: 7px;
-        }
-
-        .dot {
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-        }
-
-        .dot:nth-child(1) { background: #ff5f56; }
-        .dot:nth-child(2) { background: #ffbd2e; }
-        .dot:nth-child(3) { background: #27c93f; }
-
-        .terminal-content {
-            padding: 25px;
-            font-family: 'SF Mono', 'Monaco', 'Courier New', monospace;
-            font-size: 14px;
-            color: #0f0;
-        }
-
-        .term-line {
-            margin: 6px 0;
-        }
-
-        .term-prompt {
-            color: #777;
-        }
-
-        .term-output {
-            color: #ddd;
-            padding-left: 15px;
-        }
-
-        .blink {
-            display: inline-block;
-            width: 8px;
-            height: 15px;
-            background: #0f0;
-            animation: blinker 1s step-end infinite;
-            margin-left: 3px;
-        }
-
-        @keyframes blinker {
-            50% { opacity: 0; }
-        }
-
-        .projects-section {
-            margin-top: 80px;
-        }
-
-        .section-label {
-            font-size: 12px;
-            text-transform: uppercase;
-            letter-spacing: 2.5px;
-            color: #999;
-            margin-bottom: 25px;
-            font-weight: 600;
-        }
-
-        .project-entry {
-            padding: 22px 0;
-            border-bottom: 1px solid #e5e5e5;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-
-        .project-entry:last-child {
-            border-bottom: none;
-        }
-
-        .project-title {
-            font-size: 18px;
-            color: #1a1a1a;
-            font-weight: 500;
-        }
-
-        .project-link {
-            color: #777;
-            font-size: 14px;
-            font-family: 'SF Mono', 'Monaco', 'Courier New', monospace;
-        }
-
-        @media (max-width: 768px) {
-            body {
-                padding: 20px 10px;
-            }
-
-            .wrapper {
-                padding: 50px 30px;
-            }
-
-            h1 {
-                font-size: 42px;
-            }
-
-            .subtitle {
-                font-size: 17px;
-            }
-
-            .intro {
-                font-size: 16px;
-            }
-
-            .nav-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .terminal-content {
-                font-size: 12px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="wrapper">
         <header>
-            <h1>Adam Abbas</h1>
-            <p class="subtitle"><span class="highlight">AA</span> – like the battery</p>
+            <img src="images/me.jpg" alt="Adam Abbas" class="profile-img" onerror="this.style.display='none'">
+            <div class="header-text">
+                <h1>
+                    <span class="a1">A</span><span class="dam">dam</span><span class="space"></span><span class="a2">A</span><span class="bbas">bbas</span>
+                    <span class="battery-text"> – like the battery</span>
+                </h1>
+                <p class="new-subtitle">Hi, I'm Adam!</p>
         </header>
-
-        <div class="intro">
-            Developer and builder creating tools that solve real problems.
-            Always charged, always ready to make something useful.
-        </div>
-
-        <div class="nav-grid">
-            <a href="AboutMe.html" class="nav-card">
-                <h3>About Me <span class="arrow">→</span></h3>
-                <p>Background, interests, and what drives me</p>
-            </a>
-            <a href="files/adamabbas-resume.pdf" class="nav-card">
-                <h3>Resume <span class="arrow">→</span></h3>
-                <p>Skills, experience, and professional history</p>
-            </a>
-        </div>
 
         <div class="terminal-box">
             <div class="terminal-top">
@@ -270,21 +29,33 @@
                     <span class="term-prompt">$</span> cat introduce.me
                 </div>
                 <div class="term-line term-output">
-                    Developer and problem solver who loves building tools that make life easier.
+                    Part scientist, part software developer, and part everything else.
+                </div>
+                <div class="term-line term-output"></div>
+                <div class="term-line term-output">
+                    Passionate about bringing an interdisciplinary approach to problem solving,
                 </div>
                 <div class="term-line term-output">
-                    I'm drawn to projects where I can create something useful and meaningful.
-                </div>
-                <div class="term-line term-output">
-                    Currently working on various projects under the likethebattery.com umbrella.
+                    and effective communication as a key to technical success.
                 </div>
             </div>
+        </div>
+
+        <div class="nav-grid">
+            <a href="AboutMe.html" class="nav-card">
+                <h3>About Me <span class="arrow">→</span></h3>
+                <p>Background, interests, and what drives me</p>
+            </a>
+            <a href="files/adamabbas-resume.pdf" class="nav-card resume-card">
+                <h3>Resume <span class="arrow">→</span></h3>
+                <p>Skills, experience, and professional history</p>
+            </a>
         </div>
 
         <div class="projects-section">
             <div class="section-label">Projects</div>
             <div class="project-entry">
-                <span class="project-title">Split</span>
+                <span class="project-title">Fareshair</span>
                 <span class="project-link">split.likethebattery.com</span>
             </div>
             <div class="project-entry">
@@ -293,5 +64,6 @@
             </div>
         </div>
     </div>
+    <script src="js/main.js"></script>
 </body>
 </html>
